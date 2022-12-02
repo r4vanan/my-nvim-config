@@ -22,7 +22,7 @@ snippet = {
   end,
 },
 window = {
-  -- completion = cmp.config.window.bordered(),
+  completion = cmp.config.window.bordered(),
   -- documentation = cmp.config.window.bordered(),
 },
 mapping = cmp.mapping.preset.insert({
@@ -52,7 +52,7 @@ end, { "i", "s" }),
 	end, { "i", "s" }),
 }),
 sources = cmp.config.sources({
-  { name = 'nvim_lsp' },
+  { name = 'nvim_lsp' , keyword_length = 3 },
   { name = 'vsnip' }, -- For vsnip users.
   -- { name = 'luasnip' }, -- For luasnip users.
   -- { name = 'ultisnips' }, -- For ultisnips users.
