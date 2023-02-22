@@ -1,7 +1,7 @@
 local o = vim.o
 local g = vim.g
 o.timeoutlen = 500
-o.opdatetime = 200
+o.updatetime = 200
 
 -- better number
 o.number = true

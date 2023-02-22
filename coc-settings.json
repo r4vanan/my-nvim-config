@@ -1,5 +1,0 @@
-{
-	"python.linting.enabled": true,
-	"python.pythonPath": "python",
-	"pyright.enable": true
-}
