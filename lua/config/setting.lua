@@ -1,26 +1,32 @@
-local o = vim.o
-local g = vim.g
-o.timeoutlen = 500
-o.updatetime = 200
+vim.o.timeoutlen = 500
+vim.o.updatetime = 50
 
 -- better number
-o.number = true
-o.relativenumber = true
+vim.o.number = true
+vim.o.relativenumber = true
 -- o.smarttab = true
-o.cindent = true
+vim.o.cindent = true
 -- o.autoindent = true
-o.textwidth = 300
-o.tabstop = 4
-o.shiftwidth = 0
-o.softtabstop = -1 -- If negative, shiftwidth value is used
-o.list = true
-o.listchars = 'trail:·,nbsp:◇,tab:→ ,extends:▸,precedes:◂'
-o.ignorecase = true
-o.smartcase = true
+vim.o.textwidth = 300
+vim.o.tabstop = 4
+vim.o.shiftwidth = 0
+vim.o.softtabstop = -1 -- If negative, shiftwidth value is used
+vim.o.list = true
+vim.o.listchars = 'trail:·,nbsp:◇,tab:→ ,extends:▸,precedes:◂'
+vim.o.ignorecase = true
+vim.o.smartcase = true
 
 -- Undo and backup options
-o.backup = false
-o.writebackup = false
-o.undofile = true
-o.swapfile = false
-vim.opt.laststatus = 0
+vim.o.backup = false
+vim.o.writebackup = false
+vim.o.undofile = true
+vim.o.swapfile = false
+vim.o.laststatus = 0
+
+vim.o.guicursor = ""
+
+vim.o.termguicolors =  true
+vim.o.scrolloff = 8
+
+vim.o.hlsearch = false
+vim.o.incsearch = true
