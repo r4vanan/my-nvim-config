@@ -30,3 +30,5 @@ vim.o.scrolloff = 8
 
 vim.o.hlsearch = false
 vim.o.incsearch = true
+--_______________________________________________________
+vim.g.netrw_banner=0

@@ -18,7 +18,7 @@ return require('packer').startup(function(use)
 		-- or                            , branch = '0.1.x',
 		requires = { {'nvim-lua/plenary.nvim'} }
 	}
-	use 'joshdick/onedark.vim'
+	use 'tomasr/molokai'
 	use {
 		'VonHeikemen/lsp-zero.nvim',
 		branch = 'v1.x',
