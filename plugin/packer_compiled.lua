@@ -145,6 +145,11 @@ _G.packer_plugins = {
     path = "/home/ravanan/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
     url = "https://github.com/nvim-treesitter/nvim-treesitter"
   },
+  onedark = {
+    loaded = true,
+    path = "/home/ravanan/.local/share/nvim/site/pack/packer/start/onedark",
+    url = "https://github.com/joshdick/onedark"
+  },
   ["packer.nvim"] = {
     loaded = true,
     path = "/home/ravanan/.local/share/nvim/site/pack/packer/start/packer.nvim",
