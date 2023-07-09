@@ -1,4 +1,6 @@
 vim.cmd('set termguicolors')
 vim.cmd('colorscheme molokai')
 vim.cmd('hi Normal guibg=NONE ctermbg=NONE')
+vim.cmd('hi clear LineNr')
 vim.cmd('set cursorline')
+vim.cmd('hi CursorLine term=bold cterm=bold guibg=black')
